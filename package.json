@@ -1,5 +1,6 @@
 {
   "name": "react-essentials-start",
+  "homepage": "https://cdpnd.github.io/CV",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
