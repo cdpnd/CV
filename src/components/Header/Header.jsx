@@ -1,4 +1,9 @@
 import avatar from '../../assets/Ava.jpg';
+import mail from '../../assets/mail.png';
+import cv from '../../assets/cv.png';
+import lin from '../../assets/in.png';
+import cvpdf from '../../assets/Eugene_Pashchenko_CV_25-compressed.pdf';
+
 import './Header.css';
 
 export default function Header() {
@@ -14,6 +19,11 @@ export default function Header() {
       </div>
       <div className="avatar">
         <img src={avatar} alt="Stylized atom" />
+        <div className="buttons">
+          <a href='https://www.linkedin.com/in/eugene-pashchenko-41016365/' target="_blank"><img src={lin} alt="LinkedIn" /></a>
+          <a href='mailto:eugene.pashchenko@gmail.com'><img src={mail} alt="Gmail" /></a>
+          <a href={cvpdf} target="_blank"><img src={cv} alt="Download CV" /></a>
+        </div>
       </div>
     </header>
   );

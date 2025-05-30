@@ -7,13 +7,13 @@ export const CORE_CONCEPTS = [
     image: dev,
     title: 'Full-Stack Developer',
     description:
-      'Experienced Front-End Software Engineer intending to transition to a full-stack position (especially interested in NodeJS, .NET, Python)',
+      'Experienced Front-End Software Engineer intending to transition to a full-stack position (especially interested in React, Angular, NodeJS, .NET, Python)',
   },
   {
     image: ba,
     title: 'Business Analyst',
     description:
-      'Aspiring Business Analyst with a strong interest in business analysis and continuous learning',
+      'Aspiring Business Analyst with a strong understanding of software development processes. Interested in business analysis and continuous learning',
   },
   {
     image: supp,
@@ -24,52 +24,48 @@ export const CORE_CONCEPTS = [
 ];
 
 export const EXAMPLES = {
-  components: {
-    title: 'Experience',
+  experience: {
     description:
-      'Components are the building blocks of React applications. A component is a self-contained module (HTML + optional CSS + JS) that renders some output.',
-    code: `
-function Welcome() {
-  return <h1>Hello, World!</h1>;
-}`,
-  },
-  jsx: {
-    title: 'Education',
-    description:
-      'JSX is a syntax extension to JavaScript. It is similar to a template language, but it has full power of JavaScript (e.g., it may output dynamic content).',
-    code: `
-<div>
-  <h1>Welcome {userName}</h1>
-  <p>Time to learn React!</p>
-</div>`,
-  },
-  props: {
-    title: 'Skills',
-    description:
-      'Components accept arbitrary inputs called props. They are like function arguments.',
-    code: `
-function Welcome(props) {
-  return <h1>Hello, {props.name}</h1>;
-}`,
-  },
-  state: {
-    title: 'Contacts',
-    description:
-      'State allows React components to change their output over time in response to user actions, network responses, and anything else.',
-    code: `
-function Counter() {
-  const [isVisible, setIsVisible] = useState(false);
+      '13+ years in software development',
+    code: 
+  `• Construction industry enterprise project
+  Construction-specific system that provides real-time data and automated
+  workflows to ensure complete visibility across every step of the construction
+  lifecycle.
+  7+ years of involvement as a full-stack
 
-  function handleClick() {
-    setIsVisible(true);
-  }
+• Successful cargo tracking startup
+  Solution that specializes in supply chain risk management and logistics
+  visibility.
+  Includes real-time transportation visibility, 24/7/365 risk monitoring, safety and
+  driver behavior management, in-transit theft prevention and recovery. This
+  end-to-end solution optimizes supply-chain visibility, integrity, and security for
+  global enterprises.
+  ~2 years of involvement as a fron-end engineer
 
-  return (
-    <div>
-      <button onClick={handleClick}>Show Details</button>
-      {isVisible && <p>Amazing details!</p>}
-    </div>
-  );
-}`,
+• User-generated content collection (Reviews, QnA etc.)
+  Project that provides software that allows brands and retailers to collect several
+  types of user-generated content (UGC) on their e-commerce websites.
+  Including ratings and reviews and questions and answers, sampling, visual and
+  social content, insights. Over 3000+ client e-commerce websites.
+  3+ years of involvement as a technical support engineer.
+`,
+  },
+  education: {
+    description:
+      'Bachelor of Science in Information Technology',
+    code: 
+`Private university Galician Academy
+Department of Automation and Computer science. 2011`,
+  },
+  skills: {
+    description:
+      'Strong understanding of SDLC, Methodologies, and related processes (Version control, CI etc.)',
+    code: 
+    `English: B2 (Upper-Intermediate)
+Strong: JS/CSS/HTML/SQL
+Moderate: Angular/React
+Begginer: Node/Express    
+`,
   },
 };
