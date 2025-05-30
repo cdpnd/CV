@@ -4,7 +4,7 @@ import { CORE_CONCEPTS } from './data.js';
 import Header from './components/Header/Header.jsx';
 import CoreConcept from './components/CoreConcept.jsx';
 import TabButton from './components/TabButton.jsx';
-import Summary from './components/Summary.jsx';
+import Summary from './components/summary.jsx';
 import { EXAMPLES } from './data.js';
 
 function App() {
@@ -45,7 +45,6 @@ function App() {
           </ul>
         </section>
         <section id="examples">
-          <h2>Examples</h2>
           <menu>
             <TabButton
               isSelected={selectedTopic === 'components'}

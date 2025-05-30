@@ -2,7 +2,7 @@ import avatar from '../../assets/Ava.jpg';
 import './Header.css';
 
 export default function Header() {
-  const description = 'Experienced front-end dev looking for MERN/MEAN (react/angular+node.js) positions to start as a full-stack dev.';
+  const description = 'Experienced Front-End Developer and Technical Support Engineer. Aspiring Business Analyst with a strong interest in business analysis.';
 
   return (
     <header>

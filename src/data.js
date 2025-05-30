@@ -1,38 +1,31 @@
-import componentsImg from './assets/components.png';
-import propsImg from './assets/config.png';
-import jsxImg from './assets/jsx-ui.png';
-import stateImg from './assets/state-mgmt.png';
+import dev from './assets/Developer.png';
+import ba from './assets/BA.png';
+import supp from './assets/support.png';
 
 export const CORE_CONCEPTS = [
   {
-    image: componentsImg,
-    title: 'Components',
+    image: dev,
+    title: 'Full-Stack Developer',
     description:
-      'The core UI building block - compose the user interface by combining multiple components.',
+      'Experienced Front-End Software Engineer intending to transition to a full-stack position (especially interested in NodeJS, .NET, Python)',
   },
   {
-    image: jsxImg,
-    title: 'JSX',
+    image: ba,
+    title: 'Business Analyst',
     description:
-      'Return (potentially dynamic) HTML(ish) code to define the actual markup that will be rendered.',
+      'Aspiring Business Analyst with a strong interest in business analysis and continuous learning',
   },
   {
-    image: propsImg,
-    title: 'Props',
+    image: supp,
+    title: 'Technical Support Engineer',
     description:
-      'Make components configurable (and therefore reusable) by passing input data to them.',
-  },
-  {
-    image: stateImg,
-    title: 'State',
-    description:
-      'React-managed data which, when changed, causes the component to re-render & the UI to update.',
+      'Experienced L2-L3 Tecnical Support Engineer with strong knowledge in SQL/JS/HTML/CSS',
   },
 ];
 
 export const EXAMPLES = {
   components: {
-    title: 'Components',
+    title: 'Experience',
     description:
       'Components are the building blocks of React applications. A component is a self-contained module (HTML + optional CSS + JS) that renders some output.',
     code: `
@@ -41,7 +34,7 @@ function Welcome() {
 }`,
   },
   jsx: {
-    title: 'JSX',
+    title: 'Education',
     description:
       'JSX is a syntax extension to JavaScript. It is similar to a template language, but it has full power of JavaScript (e.g., it may output dynamic content).',
     code: `
@@ -51,7 +44,7 @@ function Welcome() {
 </div>`,
   },
   props: {
-    title: 'Props',
+    title: 'Skills',
     description:
       'Components accept arbitrary inputs called props. They are like function arguments.',
     code: `
@@ -60,7 +53,7 @@ function Welcome(props) {
 }`,
   },
   state: {
-    title: 'State',
+    title: 'Contacts',
     description:
       'State allows React components to change their output over time in response to user actions, network responses, and anything else.',
     code: `
