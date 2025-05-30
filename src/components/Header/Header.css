@@ -1,0 +1,39 @@
+header {
+  text-align: center;
+  margin: 2rem 0;
+  
+  .my-name {
+    margin: 1rem 1rem 0;
+    display: inline-block;
+    text-align: right;
+    width: 35rem;
+     h1 {
+      margin: 0;
+      font-family: "Roboto Condensed", sans-serif;
+      font-size: 2.5rem;
+      background: linear-gradient(40deg, #000dff, #00eaff, #03ffc0, #03ff18);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.5));
+    }
+    p {
+      margin: 0;
+      font-size: 1.25rem;
+      color: #648eb0;
+      font-family: "Roboto Condensed", sans-serif;
+    }
+  }
+  .avatar {
+    margin: 1rem 0 0;
+
+    display: inline-block;
+    text-align: right;
+    img {
+      vertical-align: bottom;
+      height: 10rem;
+      width: 10rem;
+      border-radius: 50%;
+    }
+  }
+ 
+}
