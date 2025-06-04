@@ -7,9 +7,31 @@
 html {
   font-family: "Poppins", sans-serif;
   line-height: 1.5;
+  height: 100%;
+    
+  body {
+    margin: 0;
+    height: 100%;
 
-  color: #efece7;
-  background-color: #1c1e37;
+  }
+  .dark {
+    height: 100%;
+    color: #efece7;
+    background-color: #1c1e37;    
+    #core-concepts, #summary {
+      background-color: #050724;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    }
+  }
+  .light {
+    height: 100%;
+    color: #1c1e37;
+    background-color: #efece7;
+    #core-concepts, #summary {
+      background-color: #0cc6bd;
+      box-shadow: 0 2px 8px rgba(52, 52, 52, 0.4);
+    }
+  }
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -39,8 +61,7 @@ main {
 main {
   h2 {
     margin: 0.2rem 0.2rem;
-  text-align: center;
-  color: #efece7;
+    text-align: center;
   }
   .left {
     text-align: left;

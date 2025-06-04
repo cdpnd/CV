@@ -32,7 +32,7 @@ function App() {
   }
 
   return (
-    <div>
+    <div className={darkMode ? "dark" : "light"}>
       <Header mode={darkMode} setMode={setDarkMode} />
       <main>
         <section id="summary">
