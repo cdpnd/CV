@@ -11,12 +11,6 @@ export default function Header() {
 
   return (
     <header>
-      <div className="my-name">
-        <h1>Eugene Pashchenko</h1>
-        <p>
-          {description}
-        </p>
-      </div>
       <div className="avatar">
         <img src={avatar} alt="Stylized atom" />
         <div className="buttons">
@@ -24,6 +18,12 @@ export default function Header() {
           <a href='mailto:eugene.pashchenko@gmail.com'><img src={mail} alt="Gmail" /></a>
           <a href={cvpdf} target="_blank"><img src={cv} alt="Download CV" /></a>
         </div>
+      </div>
+      <div className="my-name">
+        <h1>Eugene Pashchenko</h1>
+        <p>
+          {description}
+        </p>
       </div>
     </header>
   );

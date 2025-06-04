@@ -1,15 +1,16 @@
 header {
-  text-align: center;
-  margin: 2rem 0;
+  text-align: left;
+  margin: auto;
+  width: 90%;
+  max-width: 70rem;
   
   .my-name {
     margin: 1rem 1rem 0;
     display: inline-block;
-    text-align: right;
-    width: 35rem;
+    text-align: left;
+    width: 30rem;
      h1 {
       margin: 0;
-      font-family: "Roboto Condensed", sans-serif;
       font-size: 2rem;
       background: linear-gradient(40deg, #02ffea, #dceca2, #f7b481);
       -webkit-background-clip: text;
@@ -20,7 +21,6 @@ header {
       margin: 0;
       font-size: 1.25rem;
       color: #efece7;
-      font-family: "Roboto Condensed", sans-serif;
     }
   }
   .avatar {
@@ -28,7 +28,7 @@ header {
     top: 2rem;
     margin: 1rem 0 0;
     display: inline-block;
-    text-align: right;
+    text-align: left;
     img {
       vertical-align: bottom;
       height: 10rem;

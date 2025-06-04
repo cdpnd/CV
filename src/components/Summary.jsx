@@ -3,12 +3,7 @@ export default function Summary() {
         <>
             <h2 className="left">Profile summary:</h2>
             <p>
-                Web UI engineer with a total of 13+ years of experience in creating
-                user-friendly websites/applications and providing comprehensive
-                technical support to clients and companies. Proficient in creating
-                user interfaces, writing and testing codes, working with
-                databases, troubleshooting simple/complex issues, implementing
-                new features based on client feedback.
+                With 13+ years of experience, I specialize in building high-performance, scalable, and responsive websites using HTML, CSS, JavaScript, React, and Angular. I’ve worked on SaaS platforms, startups, and enterprise solutions, crafting intuitive UI/UX experiences and optimizing web performance with frameworks like Tailwind CSS and Bootstrap. Whether it’s developing interactive web applications or fine-tuning design elements, I deliver solutions that drive engagement and business success. Let’s build something exceptional together!
             </p>
         </>
     );
