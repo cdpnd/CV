@@ -8,7 +8,7 @@ header {
     margin: 1rem 1rem 0;
     display: inline-block;
     text-align: left;
-    width: 30rem;
+    max-width: 50rem;
      h1 {
       margin: 0;
       font-size: 2rem;
@@ -30,6 +30,7 @@ header {
     margin: 1rem 0 0;
     display: inline-block;
     text-align: left;
+    width: 10rem;
     img {
       vertical-align: bottom;
       height: 10rem;
@@ -53,6 +54,15 @@ header {
       }
     }
   }
-  
+  .theme-btn {
+    position: relative;
+    vertical-align: top;
+    padding-top: 5rem;
+    display: inline-block;
+    text-align: right;
+    cursor: pointer;
+    max-width: 10rem;
+    width: 10%;
+  }
  
 }

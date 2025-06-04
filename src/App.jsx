@@ -1,5 +1,4 @@
 import { useState } from 'react';
-
 import { CORE_CONCEPTS } from './data.js';
 import Header from './components/Header/Header.jsx';
 import CoreConcept from './components/CoreConcept.jsx';
@@ -9,6 +8,7 @@ import { EXAMPLES } from './data.js';
 
 function App() {
   const [selectedTopic, setSelectedTopic] = useState('skills');
+  const [darkMode, setDarkMode] = useState(true);
 
   function handleSelect(selectedButton) {
     // selectedButton => 'experience', 'education', 'skills', 'certifications'
@@ -33,7 +33,7 @@ function App() {
 
   return (
     <div>
-      <Header />
+      <Header mode={darkMode} setMode={setDarkMode} />
       <main>
         <section id="summary">
           <Summary />

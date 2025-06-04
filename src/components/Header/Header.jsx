@@ -3,10 +3,11 @@ import mail from '../../assets/mail.png';
 import cv from '../../assets/cv.png';
 import lin from '../../assets/in.png';
 import cvpdf from '../../assets/Eugene_Pashchenko_CV_25-compressed.pdf';
+import { useState } from 'react';
 
 import './Header.css';
 
-export default function Header() {
+export default function Header({mode, setMode}) {
   const description = 'Experienced Front-End Developer and Technical Support Engineer. Aspiring Business Analyst with a strong interest in business analysis.';
 
   return (
@@ -24,6 +25,9 @@ export default function Header() {
         <p>
           {description}
         </p>
+      </div>
+      <div className="theme-btn" onClick={() => setMode(!mode)}>
+        <span className="material-symbols-outlined">prayer_times</span>
       </div>
     </header>
   );
