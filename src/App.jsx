@@ -11,7 +11,7 @@ function App() {
   const [selectedTopic, setSelectedTopic] = useState('skills');
 
   function handleSelect(selectedButton) {
-    // selectedButton => 'experience', 'education', 'skills', 'contacts'
+    // selectedButton => 'experience', 'education', 'skills', 'certifications'
     setSelectedTopic(selectedButton);
   }
 
@@ -58,6 +58,12 @@ function App() {
               onSelect={() => handleSelect('education')}
             >
               Education
+            </TabButton>
+            <TabButton
+              isSelected={selectedTopic === 'certifications'}
+              onSelect={() => handleSelect('certifications')}
+            >
+              Certifications
             </TabButton>
           </menu>
           {tabContent}
