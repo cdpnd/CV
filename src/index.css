@@ -12,24 +12,60 @@ html {
   body {
     margin: 0;
     height: 100%;
-
+    #root {
+      height: 100%;
+    }
   }
   .dark {
     height: 100%;
-    color: #efece7;
+    color: #e7efee;
     background-color: #1c1e37;    
     #core-concepts, #summary {
       background-color: #050724;
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    }    
+    
+    #examples menu button {
+      color: #e7efee;
+    }
+    #examples menu button:hover {
+      border-color: #050724;
+    }
+    #examples menu button.active {
+      background-color: #050724;
+      border-color: #050724;
+    }
+    #tab-content {
+      background-color: #050724;
     }
   }
   .light {
     height: 100%;
     color: #1c1e37;
-    background-color: #efece7;
+    background-color: #e7efee;
     #core-concepts, #summary {
       background-color: #0cc6bd;
       box-shadow: 0 2px 8px rgba(52, 52, 52, 0.4);
+    }
+    
+    header .my-name h1 {
+          background: linear-gradient(40deg, #0cc6bd, #530cc6);
+          -webkit-background-clip: text;
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+          filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.5));
+    }
+    
+    #examples menu button:hover {
+      border-color: #0CC6BD;
+    }
+    #examples menu button.active {
+      background-color: #0CC6BD;
+      border-color: #0CC6BD;
+      color: #e7efee;
+    }
+    #tab-content {
+      background-color: #0cc6bd;
     }
   }
 
@@ -115,30 +151,17 @@ main {
 
 #examples menu button {
   padding: 0.5rem 1rem;
-  border: 1px solid #1f202b;
+  border: 1px solid transparent;
   border-radius: 6px;
   background-color: transparent;
-  color: #efece7;
   font-size: 1rem;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
 
-#examples menu button:hover {
-  border-color: #efece7;
-  border-width: 1px;
-}
-
-#examples menu button.active {
-  background-color: #050724;
-  border-color: #050724;
-  color: #efece7;
-}
-
 #tab-content {
   padding: 1rem;
   border-radius: 6px;
-  background-color: #050724;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
